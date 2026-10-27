@@ -36,7 +36,7 @@ android {
     }
     
     // Correção aqui: sem o sinal de "="
-    ndkVersion '24.0.7856742'
+    ndkVersion '25.1.8937393'
 }
 
 dependencies {
