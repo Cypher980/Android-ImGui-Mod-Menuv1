@@ -34,7 +34,9 @@ android {
             path file('src/main/jni/Build/Android.mk')
         }
     }
-    ndkVersion = '24.0.7856742'
+    
+    // Correção aqui: sem o sinal de "="
+    ndkVersion '24.0.7856742'
 }
 
 dependencies {
